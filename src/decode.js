@@ -1,0 +1,4 @@
+let str = "<p><img src=\"http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/3c/pcmoren_wu_org.png\" alt=\"[\u6c61]\" data-w-e=\"1\">< img src=\"http://img.t.sinajs.cn/t4/appstyle/expression/ext/normal/3c/pcmoren_wu_org.png\" alt=\"[\u6c61]\" data-w-e=\"1\"><br></p ><p><span style=\"font-weight: bold;\">234</span>< img src=\"http://otp.cdinfotech.top/uploads/cd/file/2019/12/25/15772581574575072215.jpg\" style=\"max-width: 100%;\"></p ><p><span style=\"font-weight: bold;\">\u4e30\u5bcc\u7684\u89c4\u8303\u5e7f\u94a2\u80a1\u4efd</span></p ><p><span style=\"font-weight: bold;\">H5</span>< img src=\"https://test-egret.oss-cn-zhangjiakou.aliyuncs.com/Goods/1/c4ca4238a0b923820dcc509a6f75849b/Images/1582685764_726rdu.jpg\" style=\"max-width: 100%;\"></p ><p>\u5546\u54c1\u7684\u7b80\u4ecb \u5728\u8fd9\u4e2a\u91cc\u9762\u662f\u4e0d\u662f</p>"
+
+console.log(unescape(escape(str)))
+
